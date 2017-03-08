@@ -1,9 +1,9 @@
 ---
-title: I finally Built a Blog
-date: '2017-03-08'
+title: "I finally Built a Blog"
 draft: no
+date: '2017-03-08'
 thumbnailImagePosition: left
-thumbnailImage: http://s.hswstatic.com/gif/water-life-crop.jpg
+thumbnailImage: http://frecologic.com/uploads/3/4/6/6/34661491/1383960065.png
 ---
 
 ```{r setup, include=FALSE}
@@ -13,16 +13,16 @@ knitr::opts_chunk$set(collapse = TRUE)
 I finally did it. I actually made a blog. The focus of this blog will be things I am familiar with and passionate about:
 
 
-* The intersection of science and policy as it relates to water. 
-* Exploration of the science and evidence behind controversial topics
-* Cycling
+  * The intersection of science and policy as it relates to water. 
+  * Exploration of the science and evidence behind controversial topics
+  * Cycling
 
 I'll likely deviate from this theme on occassion, but will try to keep the focus there.
 
 That being said, here is some test R code so I make sure things are working alright:
 
 
-```{r}
+```{r, echo=FALSE}
 plot(cars)
 ```
 
