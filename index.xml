@@ -6,7 +6,41 @@
     <description>Recent content on A Blog on Water, Science, Policy, and occasionally Cycling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 08 Mar 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://brfry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Shiny site for the Upper Oconee Watershed Network</title>
+      <link>https://brfry.github.io/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</link>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</guid>
+      <description>&lt;p&gt;Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &amp;ldquo;citizen scientists&amp;rdquo; and other curious stakeholders (including some of my clients). Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA. She reminds me that a local volunteer group (&lt;a href=&#34;http://www.uown.org/UOWN-Wordpress/&#34;&gt;UOWN&lt;/a&gt;) regularly collects various water quality data (in fact, I used to process &lt;em&gt;E. coli&lt;/em&gt; samples for them). However,these data are currently only available to volunteers and other members of the public as an excel file.&lt;/p&gt;
+
+&lt;p&gt;I thought it would be interesting for the volunteers who collect this data to be able to &amp;ldquo;play around&amp;rdquo; with it. Maybe they are mostly interested in the stream that runs behind their house. Maybe they want to know what the trend in conductivity is for the watershed of that stream. A Shiny interface will let them ask and (hopefully) answer these questions.&lt;/p&gt;
+
+&lt;p&gt;So with that in mind, I present &lt;a href=&#34;https://uown.shinyapps.io/test_shiny1/&#34;&gt;my current Alpha shiny site&lt;/a&gt;. I built the site in only a few hours after I figured out the basics of Shiny and reactivity thanks in large part to the guides at &lt;a href=&#34;https://shiny.rstudio.com/tutorial/&#34;&gt;Rstudio&lt;/a&gt; and, of course, stackoverflow.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I finally Built a Blog</title>
+      <link>https://brfry.github.io/2017/03/i-finally-built-a-blog/</link>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/2017/03/i-finally-built-a-blog/</guid>
+      <description>&lt;p&gt;I finally did it. I actually made a blog. The focus of this blog will be things I am familiar with and passionate about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The intersection of science and policy as it relates to water.&lt;/li&gt;
+&lt;li&gt;Exploration of the science and evidence behind controversial topics&lt;/li&gt;
+&lt;li&gt;Cycling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ll likely deviate from this theme on occassion, but will try to keep the focus there.&lt;/p&gt;
+&lt;p&gt;That being said, here is some test R code so I make sure things are working alright:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(cars)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://brfry.github.io/post/2017-03-08-hello-world-rmd_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
