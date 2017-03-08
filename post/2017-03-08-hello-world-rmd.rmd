@@ -1,5 +1,5 @@
 ---
-title: "I finally Built a Blog"
+title: "I Finally Built a Blog"
 draft: no
 date: '2017-03-08'
 thumbnailImagePosition: left
