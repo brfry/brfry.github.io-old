@@ -1,0 +1,49 @@
+---
+title: Human Health Criteria
+date: '2017-03-09'
+draft: yes
+---
+
+Recently in Florida, there was some controvery over an update the Florida Department of Environmental Protection (FDEP) promulgated concerning acceptable levels of carcinogens in ambient water and seafood. Most notably, many environmental activists were concerned about historic numbers previously set that were proposed to increase. Many blamed FDEP's use of a probablistic model instead of the previously used determanistic model, and this theme was repeated in the press:
+
+Example article
+
+Example article
+
+Example article
+
+Some environmental activists made claims concerning the validity of the methodology used to derive the updated criteria, claiming that it resulted in much higher levels of toxins than were acceptable. Others asserted that there was in fact "no safe level" for any chemical in the environment (link to that dumbass ron saff).
+
+Here I'll attempt to briefly (and almost certaintly incompletely) examine the following:
+
+1. What are the methods used to set standards for human health criteria
+2. How were criteria traditionally set (aka the determanistic approach)?
+3. What is a probablistic approach?
+4. Is a probableistic model appropriate?
+5. What is the difference in the acceptable level of a pollutant given by the two approaches?
+6. How do other assumptions change the standard?
+
+This paper will address the following questions:
+
+1. how were the original numbers determined? This question will address the assumptions made and the model used.
+
+2. what would the determanstic number be with the new data used for it?
+
+3. what is the difference in risk between the two numbers?
+
+
+## Import Data
+
+```{r}
+
+```
+
+## Clean Data
+```{r}
+
+```
+
+## Compare determanistic vs probablistic methods for one parameter
+```{r}
+
+```

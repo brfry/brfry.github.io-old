@@ -2,19 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Blog on Water, Science, Policy, and occasionally Cycling</title>
-    <link>https://brfry.github.io/index.xml</link>
+    <link>/index.xml</link>
     <description>Recent content on A Blog on Water, Science, Policy, and occasionally Cycling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://brfry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Human Health Criteria</title>
+      <link>/2017/03/human-health-criteria/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/03/human-health-criteria/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;p&gt;Recently in Florida, there was some controvery over an update the Florida Department of Environmental Protection (FDEP) promulgated concerning acceptable levels of carcinogens in ambient water and seafood. Most notably, many environmental activists were concerned about historic numbers previously set that were proposed to increase. Many blamed FDEP’s use of a probablistic model instead of the previously used determanistic model, and this theme was repeated in the press:&lt;/p&gt;
+&lt;p&gt;Example article&lt;/p&gt;
+&lt;p&gt;Example article&lt;/p&gt;
+&lt;p&gt;Example article&lt;/p&gt;
+&lt;p&gt;Some environmental activists made claims concerning the validity of the methodology used to derive the updated criteria, claiming that it resulted in much higher levels of toxins than were acceptable. Others asserted that there was in fact “no safe level” for any chemical in the environment (link to that dumbass ron saff).&lt;/p&gt;
+&lt;p&gt;Here I’ll attempt to briefly (and almost certaintly incompletely) examine the following:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;What are the methods used to set standards for human health criteria&lt;/li&gt;
+&lt;li&gt;How were criteria traditionally set (aka the determanistic approach)?&lt;/li&gt;
+&lt;li&gt;What is a probablistic approach?&lt;/li&gt;
+&lt;li&gt;Is a probableistic model appropriate?&lt;/li&gt;
+&lt;li&gt;What is the difference in the acceptable level of a pollutant given by the two approaches?&lt;/li&gt;
+&lt;li&gt;How do other assumptions change the standard?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This paper will address the following questions:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;how were the original numbers determined? This question will address the assumptions made and the model used.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;what would the determanstic number be with the new data used for it?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;what is the difference in risk between the two numbers?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;import-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Import Data&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;clean-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Clean Data&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;compare-determanistic-vs-probablistic-methods-for-one-parameter&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Compare determanistic vs probablistic methods for one parameter&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>A Shiny Site for the Upper Oconee Watershed Network</title>
-      <link>https://brfry.github.io/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</link>
+      <link>/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</link>
       <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://brfry.github.io/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</guid>
+      <guid>/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</guid>
       <description>&lt;p&gt;Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &amp;ldquo;citizen scientists&amp;rdquo; and other curious stakeholders (including some of my clients).&lt;/p&gt;
 
 &lt;p&gt;Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA. She reminds me that a local volunteer group (&lt;a href=&#34;http://www.uown.org/UOWN-Wordpress/&#34;&gt;UOWN&lt;/a&gt;) regularly collects various water quality data (in fact, I used to process &lt;em&gt;E. coli&lt;/em&gt; samples for them). However,these data are currently only available to volunteers and other members of the public as an excel file.&lt;/p&gt;
@@ -26,11 +69,49 @@
     </item>
     
     <item>
-      <title>I Finally Built a Blog</title>
-      <link>https://brfry.github.io/2017/03/i-finally-built-a-blog/</link>
+      <title>About me</title>
+      <link>/about/2017-03-08-about-me/</link>
       <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://brfry.github.io/2017/03/i-finally-built-a-blog/</guid>
+      <guid>/about/2017-03-08-about-me/</guid>
+      <description>
+
+&lt;h3 id=&#34;in-one-sentence&#34;&gt;In one sentence&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m an interdisciplinary ecologist in the private sector with a focus on aquatic assessments, microbiology, study design, statistical analysis, and data visualization.&lt;/p&gt;
+
+&lt;h3 id=&#34;frydenborg-ecologic-llc&#34;&gt;Frydenborg Ecologic, LLC&lt;/h3&gt;
+
+&lt;p&gt;I have a background in wetlab bench research. During my undergraduate studies, I was privileged to receive several awards and fellowships that allowed me to conduct research in laboratories while earning my degree. I worked on understanding cellular regulation and developmental biology in both plants and animals. Later I switched focus to the fascinating microscopic world, applying similar molecular methods to understanding the ecology of microbes, and their relationship to human and ecosystem health. Although I enjoyed being a part of basic research, I decided to leave academia due to the uncertain job market, as well as feeling rather burned out by the grind and hours that banging your head against the frontier of knowledge entails.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve long been a proponent of science-based policies and evidence-based decision making, and saw an opportunity to engage in this process in a meaningful way by starting a consulting company, Frydenborg Ecologic. I started the company along with my dad in 2014, and I now find myself working at the intersection of policy and science. Our company has worked with private and public stakeholders on projects concerning Numeric Nutrient Criteria, Environmental Resource Permitting, Waste Water Treatment Facility permits, NPDES compliance, Microbial Source Tracking, policy reviews and meta-analyses, and ecological restoration. I find the work consistently interesting, challenging, and rewarding. I get to work on complex problems that have time and resource restraints, clear consequence and impact, and controversy driven by non-scientific ideology. There are very few boring days.&lt;/p&gt;
+
+&lt;p&gt;You can visit the &lt;a href=&#34;http://www.frecologic.com/&#34;&gt;company website here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;education&#34;&gt;Education&lt;/h4&gt;
+
+&lt;p&gt;M.S., Environmental Health Science
+University of Georgia, 2013&lt;/p&gt;
+
+&lt;p&gt;Thesis: Preliminary analysis of the viral influence on the holobiont of Elkhorn coral, &lt;em&gt;Acropora palmata&lt;/em&gt;, in the context of temperature associated white pox disease&lt;/p&gt;
+
+&lt;p&gt;B.S., Microbiology and Cell Science
+University of Florida, 2010&lt;/p&gt;
+
+&lt;h4 id=&#34;relavent-skills&#34;&gt;Relavent Skills&lt;/h4&gt;
+
+&lt;p&gt;R/Rstudio,  QGIS, GRASS, SAGA, Scientific Diving, FDEP Stream Condition Index, FDEP Habitat Assessment&lt;/p&gt;
+
+&lt;p&gt;####&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I Finally Built a Blog</title>
+      <link>/2017/03/i-finally-built-a-blog/</link>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/03/i-finally-built-a-blog/</guid>
       <description>&lt;p&gt;I finally did it. I actually made a blog. The focus of this blog will be things I am familiar with and passionate about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The intersection of science and policy as it relates to water.&lt;/li&gt;
@@ -39,7 +120,7 @@
 &lt;/ul&gt;
 &lt;p&gt;I’ll likely deviate from this theme on occassion, but will try to keep the focus there.&lt;/p&gt;
 &lt;p&gt;That being said, here is some test R code so I make sure things are working alright:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://brfry.github.io/post/2017-03-08-hello-world-rmd_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-03-08-hello-world-rmd_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
