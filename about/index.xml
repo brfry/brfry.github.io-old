@@ -2,19 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on A Blog on Water, Science, Policy, and occasionally Cycling</title>
-    <link>/about/index.xml</link>
+    <link>https://brfry.github.io/about/index.xml</link>
     <description>Recent content in Abouts on A Blog on Water, Science, Policy, and occasionally Cycling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://brfry.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About me</title>
-      <link>/about/</link>
+      <link>https://brfry.github.io/about/2017-03-08-about-me/</link>
       <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://brfry.github.io/about/2017-03-08-about-me/</guid>
+      <description>
+
+&lt;h3 id=&#34;in-one-sentence&#34;&gt;In one sentence&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m an interdisciplinary ecologist in the private sector with a focus on aquatic assessments, microbiology, study design, statistical analysis, and data visualization.&lt;/p&gt;
+
+&lt;h3 id=&#34;frydenborg-ecologic-llc&#34;&gt;Frydenborg Ecologic, LLC&lt;/h3&gt;
+
+&lt;p&gt;I have a background in wetlab bench research. During my undergraduate studies, I was privileged to receive several awards and fellowships that allowed me to conduct research in laboratories while earning my degree. I worked on understanding cellular regulation and developmental biology in both plants and animals. Later I switched focus to the fascinating microscopic world, applying similar molecular methods to understanding the ecology of microbes, and their relationship to human and ecosystem health. Although I enjoyed being a part of basic research, I decided to leave academia due to the uncertain job market, as well as feeling rather burned out by the grind and hours that banging your head against the frontier of knowledge entails.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve long been a proponent of science-based policies and evidence-based decision making, and saw an opportunity to engage in this process in a meaningful way by starting a consulting company, Frydenborg Ecologic. I started the company along with my dad in 2014, and I now find myself working at the intersection of policy and science. Our company has worked with private and public stakeholders on projects concerning Numeric Nutrient Criteria, Environmental Resource Permitting, Waste Water Treatment Facility permits, NPDES compliance, Microbial Source Tracking, policy reviews and meta-analyses, and ecological restoration. I find the work consistently interesting, challenging, and rewarding. I get to work on complex problems that have time and resource restraints, clear consequence and impact, and controversy driven by non-scientific ideology. There are very few boring days.&lt;/p&gt;
+
+&lt;p&gt;You can visit the &lt;a href=&#34;http://www.frecologic.com/&#34;&gt;company website here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;education&#34;&gt;Education&lt;/h4&gt;
+
+&lt;p&gt;M.S., Environmental Health Science
+University of Georgia, 2013&lt;/p&gt;
+
+&lt;p&gt;Thesis: Preliminary analysis of the viral influence on the holobiont of Elkhorn coral, &lt;em&gt;Acropora palmata&lt;/em&gt;, in the context of temperature associated white pox disease&lt;/p&gt;
+
+&lt;p&gt;B.S., Microbiology and Cell Science
+University of Florida, 2010&lt;/p&gt;
+
+&lt;h4 id=&#34;relavent-skills&#34;&gt;Relavent Skills&lt;/h4&gt;
+
+&lt;p&gt;R/Rstudio,  QGIS, GRASS, SAGA, Scientific Diving, FDEP Stream Condition Index, FDEP Habitat Assessment&lt;/p&gt;
+
+&lt;p&gt;####&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://brfry.github.io/about/</link>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/about/</guid>
       <description>&lt;!-- BLOGDOWN-HEAD --&gt;
 &lt;!-- /BLOGDOWN-HEAD --&gt;
 
@@ -37,7 +75,7 @@
 &lt;/div&gt;
 &lt;div id=&#34;relavent-skills&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Relavent Skills&lt;/h4&gt;
-&lt;p&gt;R/Rstudio, QGIS, GRASS, SAGA, Scientific Diving, FDEP Stream Condition Index, FDEP Habitat Assessment&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Computer:&lt;/em&gt; R/Rstudio, Shiny application development, QGIS, GRASS, SAGA, GitHub/git &lt;em&gt;Field:&lt;/em&gt; PADI Scientific Diving (50 dives), FDEP Stream Condition Index, FDEP Habitat Assessment&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;section&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;&lt;/h4&gt;

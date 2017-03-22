@@ -2,19 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Blog on Water, Science, Policy, and occasionally Cycling</title>
-    <link>/index.xml</link>
+    <link>https://brfry.github.io/index.xml</link>
     <description>Recent content on A Blog on Water, Science, Policy, and occasionally Cycling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://brfry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Human Health Criteria Part One</title>
+      <link>https://brfry.github.io/2017/03/human-health-criteria-part-one/</link>
+      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/2017/03/human-health-criteria-part-one/</guid>
+      <description>&lt;p&gt;Recently in Florida, there has been some controvery over an update to Human Health Criteria (HHC) that the Florida Department of Environmental Protection (FDEP) promulgated concerning acceptable levels for 88 carcinogens in ambient water and seafood. Most notably, many environmental activists are concerned that historic numbers for several substances are proposed to increase. Many blame FDEP&amp;rsquo;s use of a probablistic model instead of the previously used determanistic model, and this theme was repeated in the press:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tallahassee.com/story/news/2016/05/14/public-blasts-dep-over-new-water-toxin-standards/84382154/&#34;&gt;&amp;ldquo;The state of Florida wants to weaken its restrictions on roughly two dozen cancer-causing chemicals that can be discharged into its rivers, lakes, streams and coastal waters&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tallahassee.com/story/news/2016/05/20/dep-defends-water-pollution-standards/84675594/&#34;&gt;&amp;ldquo;DEP’s method of calculating limits — a process not used by any other state or the Environmental Protection Agency — would allow for more pollution&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In response to these claims by environmentalists FDEP asserts that &lt;a href=&#34;http://www.mypalmbeachpost.com/news/cerabino-dirty-water-shouldn-our-future-environmentalists-say/2om26RwRrwkTkffSR5kPyM/&#34;&gt;“the criteria consider a range of environmental variables and account for the most at-risk populations, including young children, pregnant women and those whose diets comprise primarily of Florida seafood”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There is a lot to unpack here in addition to just the science and statistics behind the criteria. For instance, to someone unfamiliar with the state-federal relationship and rule making process, it sounds worrying that FDEP is promulgating higher acceptable levels for some carcinogens than what the EPA has put forward. Yet these news stories tend to leave out a key point: the EPA &lt;a href=&#34;https://www.epa.gov/sites/production/files/2015-10/documents/human-health-2015-update-factsheet.pdf&#34;&gt;&amp;ldquo;criteria are not rules, nor do they automatically become part of a state’s water quality standards. States may adopt the criteria that EPA publishes, modify EPA’s criteria to reflect site-specific conditions, or adopt different criteria based on other scientifically-defensible methods.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to scary news articles, one concerned group, Earth Justice, did present an &lt;a href=&#34;http://earthjustice.org/sites/default/files/files/Burkholder%20Assessment.pdf&#34;&gt;analysis by JoAnn Burkholder of NCSU that is critical of the methodology&lt;/a&gt;. She asserts that &amp;ldquo;the [Monte Carlo] model has several major impediments which prompted the U.S. Environmental Protection Agency (EPA) to advise against its use for deriving HHC&amp;rdquo; and that &amp;ldquo;the model emphasizes average adult Floridians&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;While I do not want this blog post to be a review of her paper, I will note that a cursory look at the &lt;a href=&#34;https://www.epa.gov/risk/use-monte-carlo-simulation-risk-assessments&#34;&gt;literature she sites&lt;/a&gt; do not appear to support her claims. For instance, one citation is for a 1994 EPA Region 3 (Florida is in Region 4) guidance document which never discourages the use of Monte Carlo simulation. In fact it mainly discusses how single point and determanistic methods do not account for uncertainty properly and are overly protective. EPA has a more recent (2014), peer reviewed &lt;a href=&#34;https://www.epa.gov/sites/&#34;&gt;document outlining risk assessment in more detail&lt;/a&gt;, which notes &amp;ldquo;PRA (probablistic risk assessment) may be more suitable than DRA (determanistic risk assessment) for complex assessments, including those of aggregate and cumulative exposures and time‐dependent individual exposure, dose and effects analyses&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;As you can tell, I think the environmentalists and Burkholder are wrong about the science (and policy) behind these new rules.&lt;/p&gt;
+
+&lt;p&gt;But why should you take my word for it? Are you going to get cancer because of this revised regulation? What does it mean that the the accetpable dose for benzene in ambient Class III waters has increased from 53.0 ug/L to 71.28 ug/L? Are most Floridian&amp;rsquo;s protected at these levels? Are the the most susceptible populations protected?&lt;/p&gt;
+
+&lt;p&gt;In the following series of posts about human health criteria, I&amp;rsquo;ll attempt to briefly (and almost certaintly incompletely) examine the following questions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;What are the goals of human health criteria regulations?&lt;/li&gt;
+&lt;li&gt;What are the methods and assumptions used to set standards for human health criteria?&lt;/li&gt;
+&lt;li&gt;How were criteria traditionally set (aka the determanistic approach) and what are the limitations?&lt;/li&gt;
+&lt;li&gt;What is a probablistic approach, and what are the advantages and limitations compared to the determanistic method?&lt;/li&gt;
+&lt;li&gt;Is a probablistic model appropriate for human health risk?&lt;/li&gt;
+&lt;li&gt;What is the difference in the acceptable level of a pollutant given by the two approaches?&lt;/li&gt;
+&lt;li&gt;How do various assumptions change the standard?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>A Shiny Site for the Upper Oconee Watershed Network</title>
-      <link>/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</link>
+      <link>https://brfry.github.io/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</link>
       <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</guid>
+      <guid>https://brfry.github.io/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</guid>
       <description>&lt;p&gt;Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &amp;ldquo;citizen scientists&amp;rdquo; and other curious stakeholders (including some of my clients).&lt;/p&gt;
 
 &lt;p&gt;Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA. She reminds me that a local volunteer group (&lt;a href=&#34;http://www.uown.org/UOWN-Wordpress/&#34;&gt;UOWN&lt;/a&gt;) regularly collects various water quality data (in fact, I used to process &lt;em&gt;E. coli&lt;/em&gt; samples for them). However,these data are currently only available to volunteers and other members of the public as an excel file.&lt;/p&gt;
@@ -27,10 +65,48 @@
     
     <item>
       <title>About me</title>
-      <link>/about/</link>
+      <link>https://brfry.github.io/about/2017-03-08-about-me/</link>
       <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://brfry.github.io/about/2017-03-08-about-me/</guid>
+      <description>
+
+&lt;h3 id=&#34;in-one-sentence&#34;&gt;In one sentence&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m an interdisciplinary ecologist in the private sector with a focus on aquatic assessments, microbiology, study design, statistical analysis, and data visualization.&lt;/p&gt;
+
+&lt;h3 id=&#34;frydenborg-ecologic-llc&#34;&gt;Frydenborg Ecologic, LLC&lt;/h3&gt;
+
+&lt;p&gt;I have a background in wetlab bench research. During my undergraduate studies, I was privileged to receive several awards and fellowships that allowed me to conduct research in laboratories while earning my degree. I worked on understanding cellular regulation and developmental biology in both plants and animals. Later I switched focus to the fascinating microscopic world, applying similar molecular methods to understanding the ecology of microbes, and their relationship to human and ecosystem health. Although I enjoyed being a part of basic research, I decided to leave academia due to the uncertain job market, as well as feeling rather burned out by the grind and hours that banging your head against the frontier of knowledge entails.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve long been a proponent of science-based policies and evidence-based decision making, and saw an opportunity to engage in this process in a meaningful way by starting a consulting company, Frydenborg Ecologic. I started the company along with my dad in 2014, and I now find myself working at the intersection of policy and science. Our company has worked with private and public stakeholders on projects concerning Numeric Nutrient Criteria, Environmental Resource Permitting, Waste Water Treatment Facility permits, NPDES compliance, Microbial Source Tracking, policy reviews and meta-analyses, and ecological restoration. I find the work consistently interesting, challenging, and rewarding. I get to work on complex problems that have time and resource restraints, clear consequence and impact, and controversy driven by non-scientific ideology. There are very few boring days.&lt;/p&gt;
+
+&lt;p&gt;You can visit the &lt;a href=&#34;http://www.frecologic.com/&#34;&gt;company website here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;education&#34;&gt;Education&lt;/h4&gt;
+
+&lt;p&gt;M.S., Environmental Health Science
+University of Georgia, 2013&lt;/p&gt;
+
+&lt;p&gt;Thesis: Preliminary analysis of the viral influence on the holobiont of Elkhorn coral, &lt;em&gt;Acropora palmata&lt;/em&gt;, in the context of temperature associated white pox disease&lt;/p&gt;
+
+&lt;p&gt;B.S., Microbiology and Cell Science
+University of Florida, 2010&lt;/p&gt;
+
+&lt;h4 id=&#34;relavent-skills&#34;&gt;Relavent Skills&lt;/h4&gt;
+
+&lt;p&gt;R/Rstudio,  QGIS, GRASS, SAGA, Scientific Diving, FDEP Stream Condition Index, FDEP Habitat Assessment&lt;/p&gt;
+
+&lt;p&gt;####&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://brfry.github.io/about/</link>
+      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/about/</guid>
       <description>&lt;!-- BLOGDOWN-HEAD --&gt;
 &lt;!-- /BLOGDOWN-HEAD --&gt;
 
@@ -53,7 +129,7 @@
 &lt;/div&gt;
 &lt;div id=&#34;relavent-skills&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Relavent Skills&lt;/h4&gt;
-&lt;p&gt;R/Rstudio, QGIS, GRASS, SAGA, Scientific Diving, FDEP Stream Condition Index, FDEP Habitat Assessment&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Computer:&lt;/em&gt; R/Rstudio, Shiny application development, QGIS, GRASS, SAGA, GitHub/git &lt;em&gt;Field:&lt;/em&gt; PADI Scientific Diving (50 dives), FDEP Stream Condition Index, FDEP Habitat Assessment&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;section&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;&lt;/h4&gt;
@@ -64,10 +140,10 @@
     
     <item>
       <title>I Finally Built a Blog</title>
-      <link>/2017/03/i-finally-built-a-blog/</link>
+      <link>https://brfry.github.io/2017/03/i-finally-built-a-blog/</link>
       <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/03/i-finally-built-a-blog/</guid>
+      <guid>https://brfry.github.io/2017/03/i-finally-built-a-blog/</guid>
       <description>&lt;p&gt;I finally did it. I actually made a blog. The focus of this blog will be things I am familiar with and passionate about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The intersection of science and policy as it relates to water.&lt;/li&gt;
@@ -76,7 +152,7 @@
 &lt;/ul&gt;
 &lt;p&gt;I’ll likely deviate from this theme on occassion, but will try to keep the focus there.&lt;/p&gt;
 &lt;p&gt;That being said, here is some test R code so I make sure things are working alright:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-03-08-hello-world-rmd_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://brfry.github.io/post/2017-03-08-hello-world-rmd_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -1,29 +1,46 @@
 ---
-title: Human Health Criteria
-date: '2017-03-09'
+title: "Human Health Criteria - Part One"
 draft: yes
+date: '2017-03-09'
 ---
 
-Recently in Florida, there was some controvery over an update the Florida Department of Environmental Protection (FDEP) promulgated concerning acceptable levels of carcinogens in ambient water and seafood. Most notably, many environmental activists were concerned about historic numbers previously set that were proposed to increase. Many blamed FDEP's use of a probablistic model instead of the previously used determanistic model, and this theme was repeated in the press:
+Recently in Florida, there has been some controvery over an update to Human Health Criteria (HHC) that the Florida Department of Environmental Protection (FDEP) promulgated concerning acceptable levels of carcinogens in ambient water and seafood. Most notably, many environmental activists are concerned that historic numbers for several substances are proposed to increase. Many blame FDEP's use of a probablistic model instead of the previously used determanistic model, and this theme was repeated in the press:
 
-Example article
+["The state of Florida wants to weaken its restrictions on roughly two dozen cancer-causing chemicals that can be discharged into its rivers, lakes, streams and coastal waters"](http://www.tallahassee.com/story/news/2016/05/14/public-blasts-dep-over-new-water-toxin-standards/84382154/)
 
-Example article
+["DEP’s method of calculating limits — a process not used by any other state or the Environmental Protection Agency — would allow for more pollution"](http://www.tallahassee.com/story/news/2016/05/20/dep-defends-water-pollution-standards/84675594/).
 
-Example article
+The news stories tend to leave out a key point that the EPA ["criteria are not rules, nor do they automatically become part of a state’s water quality standards. States may adopt the criteria that EPA publishes, modify EPA’s criteria to reflect site-specific conditions, or adopt different criteria based on other scientifically-defensible methods."](https://www.epa.gov/sites/production/files/2015-10/documents/human-health-2015-update-factsheet.pdf)
 
-Some environmental activists made claims concerning the validity of the methodology used to derive the updated criteria, claiming that it resulted in much higher levels of toxins than were acceptable. Others asserted that there was in fact "no safe level" for any chemical in the environment (link to that dumbass ron saff).
+In addition to scary news articles, one concerned group, Earth Justice, did present an [analysis by JoAnn Burkholder of NCSU that is critical of the methodology](http://earthjustice.org/sites/default/files/files/Burkholder%20Assessment.pdf). She asserts that "the [Monte Carlo] model has several major impediments which prompted the U.S. Environmental Protection Agency (EPA) to advise against its use for deriving HHC" and that "the model emphasizes average adult Floridians".
 
-Here I'll attempt to briefly (and almost certaintly incompletely) examine the following:
+While I do not want this blog post to be a review of her paper, I will note that a cursory look at the [literature she sites](https://www.epa.gov/risk/use-monte-carlo-simulation-risk-assessments) for her above claims are a guidance documents which do not support her cliams. For instance, one citation is for an EPA Region 3 (Florida is in Region 4) guidance document which never discourages the use of Monte Carlo simulation, contrary to her claim. In fact it mainly discusses how single point and determanistic methods do not account for uncertainty properly and are overly protective, and was written in 1994. EPA has a more recent (2014), peer reviewed [document outlining risk assessment in more detail](https://www.epa.gov/sites/), which notes "PRA (probablistic risk assessment) may be more suitable than DRA (determanistic risk assessment) for complex assessments, including those of aggregate and cumulative exposures and time‐dependent individual exposure, dose and effects analyses". 
 
-1. What are the methods used to set standards for human health criteria
-2. How were criteria traditionally set (aka the determanistic approach)?
-3. What is a probablistic approach?
-4. Is a probableistic model appropriate?
-5. What is the difference in the acceptable level of a pollutant given by the two approaches?
-6. How do other assumptions change the standard?
+In response to these claims by environmentalists FDEP asserts that [“the criteria consider a range of environmental variables and account for the most at-risk populations, including young children, pregnant women and those whose diets comprise primarily of Florida seafood”](http://www.mypalmbeachpost.com/news/cerabino-dirty-water-shouldn-our-future-environmentalists-say/2om26RwRrwkTkffSR5kPyM/).
 
-This paper will address the following questions:
+So who is right? Is this something to panic over? Are we all going to get cancer now? What does it mean that the the accetpable dose for benzene consumption in pregnant woman who eat fish 4 times per week has increased from ___ to ___ picograms/kg?
+
+In the following series of posts, I'll attempt to briefly (and almost certaintly incompletely) examine the following:
+
+1. What are the goals of human health criteria regulations?
+2. What are the methods used to set standards for human health criteria?
+3. How were criteria traditionally set (aka the determanistic approach) and what are the limitations?
+4. What is a probablistic approach, and what are the advantages and limitations compared to the determanistic method?
+5. Is a probablistic model appropriate for human health risk?
+6. What is the difference in the acceptable level of a pollutant given by the two approaches?
+7. How do other assumptions change the standard?
+
+## 1. What are the goals of human health criteria regulations?
+
+
+
+## 2. What are the methods used to set standards for human health criteria?
+
+## 3. How were criteria traditionally set (aka the determanistic approach)?
+
+## 4. What is a probablistic approach?
+
+## 5. 
 
 1. how were the original numbers determined? This question will address the assumptions made and the model used.
 

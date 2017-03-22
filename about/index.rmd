@@ -29,6 +29,7 @@ B.S., Microbiology and Cell Science
 University of Florida, 2010     
 
 #### Relavent Skills
-R/Rstudio,  QGIS, GRASS, SAGA, Scientific Diving, FDEP Stream Condition Index, FDEP Habitat Assessment
+*Computer:* R/Rstudio, Shiny application development, QGIS, GRASS, SAGA, GitHub/git
+*Field:* PADI Scientific Diving (50 dives), FDEP Stream Condition Index, FDEP Habitat Assessment
 
-####
+#### 
