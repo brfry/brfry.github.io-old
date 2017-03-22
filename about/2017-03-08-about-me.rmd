@@ -1,6 +1,6 @@
 ---
 title: About me
-#date: '2017-03-08'
+date: '2017-03-08'
 draft: no
 ---
 
