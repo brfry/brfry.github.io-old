@@ -61,25 +61,25 @@ In practice, these single point estimates are used in the following equations to
 ***
 Non-carcinogens (i.e. based on a threshold reference dose), consumption of water and organisms:
 
-\[ SWQC = \frac{RfD \times RSC \times BW \times 1,000}{DI + \Sigma_{i=2}^4[FCR_i \times BAF_i]}\]
+$$ SWQC = \frac{RfD \times RSC \times BW \times 1,000}{DI + \Sigma_{i=2}^4[FCR_i \times BAF_i]}$$
 
 ***
 
 Non-carcinogens, consumption of organisms only:
 
-\[ SWQC = \frac{RfD \times RSC \times BW \times 1,000}{\Sigma_{i=2}^4[FCR_i \times BAF_i]}\]
+$$ SWQC = \frac{RfD \times RSC \times BW \times 1,000}{\Sigma_{i=2}^4[FCR_i \times BAF_i]}$$
 
 ***
 
 Carcinogenic compound, consumption of water and organisms:
 
-\[ SWQC = \frac{Risk\div CSF \times BW \times 1,000}{DI + \Sigma_{i=2}^4[FCR_i \times BAF_i]}\]
+$$ SWQC = \frac{Risk\div CSF \times BW \times 1,000}{DI + \Sigma_{i=2}^4[FCR_i \times BAF_i]}$$
 
 ***
 
 Carcinogenic compound, consumption of organisms only:
 
-\[ SWQC = \frac{Risk\div CSF \times BW \times 1,000}{\Sigma_{i=2}^4[FCR_i \times BAF_i]}\]
+$$ SWQC = \frac{Risk\div CSF \times BW \times 1,000}{\Sigma_{i=2}^4[FCR_i \times BAF_i]}$$
 
 ***
 
@@ -92,7 +92,7 @@ These equations can also be rearranged in order to calculate the risk of exceedi
 
 Equation for non-carcinogens to calculate a hazard quotient:
 
-\[ HQ = \frac{I_w + I_f}{BW \times (RSC \times RfD)}\]
+$$ HQ = \frac{I_w + I_f}{BW \times (RSC \times RfD)}$$
 
 where: 
 
@@ -108,7 +108,7 @@ A HQ less than 1.0 indicates that the RSC adjusted reference does is not exceede
 
 Equation for carcinogens to calculate risk:
 
-\[ Risk = \frac{(I_w + I_f) \times CSF}{BW}\]
+$$ Risk = \frac{(I_w + I_f) \times CSF}{BW}$$
 
 where:
 
@@ -147,6 +147,7 @@ plot(xseq, densities, col = "darkgreen", xlab = "body weight", ylab = "probabili
 ***
 
 Still to come:
+
  - Examination of how single point estimates are set (e.g. how is fish consumption rate determined?)
  - Examination of a single point estimate's influence on water quality criteria without implementing a probabilistic  framework (e.g. how did a more specific fish consumption rate change the criteria?). 
  - Examination of the difference in the criteria due solely to the method used (PRA vs DRA)?
