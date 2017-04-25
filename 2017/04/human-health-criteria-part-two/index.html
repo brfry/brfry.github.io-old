@@ -20,7 +20,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.19">
-    <title>A Shiny Site for the Upper Oconee Watershed Network</title>
+    <title>Human Health Criteria Part Two</title>
     <meta name="author" content="Beck Frydenborg">
     <meta name="keywords" content="">
 
@@ -28,18 +28,18 @@
     
 
     
-    <meta name="description" content="Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &ldquo;citizen scientists&rdquo; and other curious stakeholders (including some of my clients).
-Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA.">
-    <meta property="og:description" content="Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &ldquo;citizen scientists&rdquo; and other curious stakeholders (including some of my clients).
-Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA.">
+    <meta name="description" content="Well, this blog entry has certainly been delayed more than I anticipated. This post will hopefully give you an introductory background into the motivations behind determining a regulatory number, the methods available to set that number, what the major assumptions are, and what the differences are between the methods.
+1. What are the goals of human health criteria regulations?Human Health Criteria (HHC) water quality standards are set to ensure that a designated population can safely consume seafood, and swim and drink potable water.">
+    <meta property="og:description" content="Well, this blog entry has certainly been delayed more than I anticipated. This post will hopefully give you an introductory background into the motivations behind determining a regulatory number, the methods available to set that number, what the major assumptions are, and what the differences are between the methods.
+1. What are the goals of human health criteria regulations?Human Health Criteria (HHC) water quality standards are set to ensure that a designated population can safely consume seafood, and swim and drink potable water.">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="A Shiny Site for the Upper Oconee Watershed Network">
-    <meta property="og:url" content="/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/">
+    <meta property="og:title" content="Human Health Criteria Part Two">
+    <meta property="og:url" content="/2017/04/human-health-criteria-part-two/">
     <meta property="og:site_name" content="A Blog on Water, Science, Policy, and occasionally Cycling">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="A Blog on Water, Science, Policy, and occasionally Cycling">
-    <meta name="twitter:description" content="Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &ldquo;citizen scientists&rdquo; and other curious stakeholders (including some of my clients).
-Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA.">
+    <meta name="twitter:description" content="Well, this blog entry has certainly been delayed more than I anticipated. This post will hopefully give you an introductory background into the motivations behind determining a regulatory number, the methods available to set that number, what the major assumptions are, and what the differences are between the methods.
+1. What are the goals of human health criteria regulations?Human Health Criteria (HHC) water quality standards are set to ensure that a designated population can safely consume seafood, and swim and drink potable water.">
     
     
 
@@ -51,7 +51,7 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
     
 
     
-      <meta property="og:image" content="https://s-media-cache-ak0.pinimg.com/originals/2f/34/ad/2f34adb7a9c44cc37a8c9e32e5417752.png">
+      <meta property="og:image" content="http://i.imgur.com/funBf2J.png">
     
     
     
@@ -172,14 +172,14 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      A Shiny Site for the Upper Oconee Watershed Network
+      Human Health Criteria Part Two
     </h1>
   
   <div class="postShorten-meta post-meta">
   
-    <time itemprop="datePublished" datetime="2017-03-08T00:00:00Z">
+    <time itemprop="datePublished" datetime="2017-04-23T00:00:00Z">
       
-  March 8, 2017
+  April 23, 2017
 
     </time>
   
@@ -191,13 +191,126 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &ldquo;citizen scientists&rdquo; and other curious stakeholders (including some of my clients).</p>
-
-<p>Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA. She reminds me that a local volunteer group (<a href="http://www.uown.org/UOWN-Wordpress/">UOWN</a>) regularly collects various water quality data (in fact, I used to process <em>E. coli</em> samples for them). However,these data are currently only available to volunteers and other members of the public as an excel file.</p>
-
-<p>I thought it would be interesting for the volunteers who collect these data to be able to &ldquo;play around&rdquo; and explore their data. Maybe they are mostly interested in the water quality parameters of the stream that runs behind their house. Maybe they want to know what the trend in conductivity is for the watershed of that stream. A Shiny interface will let them ask and (hopefully) answer these questions. As a bonus, I get to learn a new skill.</p>
-
-<p>So with that in mind, I present <a href="https://uown.shinyapps.io/test_shiny1/">my current Alpha shiny site</a>. I built the site in only a few hours after I figured out the basics of Shiny and reactivity thanks in large part to the guides at <a href="https://shiny.rstudio.com/tutorial/">Rstudio</a> and, of course, stackoverflow.</p>
+              <p>Well, this blog entry has certainly been delayed more than I anticipated. This post will hopefully give you an introductory background into the motivations behind determining a regulatory number, the methods available to set that number, what the major assumptions are, and what the differences are between the methods.</p>
+<div id="what-are-the-goals-of-human-health-criteria-regulations" class="section level3">
+<h3>1. What are the goals of human health criteria regulations?</h3>
+<p>Human Health Criteria (HHC) water quality standards are set to ensure that a designated population can safely consume seafood, and swim and drink potable water. The standards take into account a lifetime of exposure and set acceptable levels of risk for undesirable health outcomes such as cancer (usually at a <span class="math inline">\(10^{-5}\)</span> or <span class="math inline">\(10^{-6}\)</span> increase over background for the general population, and <span class="math inline">\(10^{-4}\)</span> for atypical consumers, such as subsistence fishers).</p>
+<p>EPA summarizes the goal of human health ambient water quality criteria <a href="https://www.epa.gov/sites/production/files/2015-12/documents/hh-fish-consumption-faqs.pdf">as follows</a>:</p>
+<blockquote>
+<p>To be consistent with section 101(a)(2),the applicable criteria for such “fishable” designated uses must not only protect the aquatic organisms themselves, but also protect human health through consumption of fish and shellfish.</p>
+</blockquote>
+<blockquote>
+<p>EPA has consistently implemented the Clean Water Act to ensure that the total rate of consumption of freshwater and estuarine fish and shellfish (including estuarine species harvested in near coastal waters) reflects consumption rates demonstrated by the population of concern. In other words, EPA expects that the standards will be set to enable residents to safely consume from local waters the amount of fish they would normally consume from all fresh and estuarine waters (including estuarine species harvested in near coastal waters). EPA does not necessarily expect all consumers to eat only fish from a single State, but individuals or groups should be able to do so without concern for their health.</p>
+</blockquote>
+<blockquote>
+<p>Through the use of conservative assumptions with respect to both toxicity and exposure parameters, the resulting AWQC should provide adequate protection not only for the general population over a lifetime of exposure, but also for special subpopulations who, because of high water or fish intake rates, or because of biological sensitivities, have an increased risk of receiving a dose that would elicit adverse effects. The Agency recognizes that there may be some cases where the AWQC based on chronic toxicity may not provide adequate protection for a subpopulation at special risk from shorter-term exposures. The Agency encourages States, Tribes, and others employing the 2000 Human Health Methodology to give consideration to such circumstances in deriving criteria to ensure that adequate protection is afforded to all identifiable subpopulations.</p>
+</blockquote>
+</div>
+<div id="what-are-the-methods-used-to-set-standards-for-human-health-criteria" class="section level3">
+<h3>What are the methods used to set standards for human health criteria?</h3>
+<p>The acceptable water quality standard is dependent on several estimates and assumptions. These include the fish consumption rate (FCR), the relative source contribution (RSC), the incremental risk exposure for carcinogens, the bioaccumulation factor, the cancer slope factor, the drinking water intake, and body weight.</p>
+<p>The FCR is the amount of seafood consumed by a person per day. For HHC, this rate is set to reflect the consumption of species in both fresh and estuarine waters. The FCR is inclusive of seafood from local, commercial, aquaculture, interstate, and international sources. The FCR can be adjusted if sufficient data are available to determine a RSC. If sufficient data are not available, EPA has set a default of 20% RSC that will ensure the designated use is protected. In short, this assumption is that only 20% of a person’s total exposure to a particular chemical is due to their consumption of seafood and drinking water.</p>
+<p>The criteria for a particular chemical in ambient water is determined with respect to the incremental lifetime risk due to the presence of that substance in water. EPA recommends an incremental cancer risk not exceed more than 1 in 1,000,000 (<span class="math inline">\(10^{-6}\)</span>) or 1 in 100,000 (<span class="math inline">\(10^{-5}\)</span>) for the general population. For sensitive subpopulations (such as subsistence fishers), the acceptable incremental lifetime risk is not to exceed 1 in 10,000 (<span class="math inline">\(10^{-4}\)</span>).</p>
+<table>
+<thead>
+<tr class="header">
+<th>Incremental Risk</th>
+<th>Decimal increase</th>
+<th>Percent increase</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1 in 10,000</td>
+<td>0.0001</td>
+<td>0.01%</td>
+</tr>
+<tr class="even">
+<td>1 in 100,000</td>
+<td>0.00001</td>
+<td>0.001%</td>
+</tr>
+<tr class="odd">
+<td>1 in 1,000,000</td>
+<td>0.000001</td>
+<td>0.0001%</td>
+</tr>
+</tbody>
+</table>
+<p>For some perspective, the CDC states that secondhand smoke increases the risk of lung cancer in non smokers who are exposed regularly at work and home by <a href="https://www.cdc.gov/tobacco/data_statistics/sgr/50th-anniversary/index.htm">20-30%</a>. I think it’s important to remember the scale of risk these criteria are addressing, particularly when one considers the often sensationalist headlines in the press.</p>
+</div>
+<div id="how-were-criteria-traditionally-set-aka-the-deterministic-approach" class="section level3">
+<h3>How were criteria traditionally set (aka the deterministic approach)?</h3>
+<p>The deterministic approach to criteria development relies on point estimates of key variables, such as fish consumption rates, drinking water intake, and body weight). These single point estimates are set often at an upper percentile (e.g. 90th), with the assumption that this will protect individuals with a high fish consumption rate, for example.</p>
+<p>A criticism of this approach is that it is rudimentary and inaccurate due to the compounded levels of conservatism, and that the resulting criteria are meaningless. Often the point estimates become a matter of “best professional judgement”, which is undesirable and will introduce additional bias. Perhaps more importantly, all measure of variability is lost. The focus when setting criteria using a deterministic approach also becomes centered on the agreeable amount of fish consumption instead of the more relevant concern that criteria development should be addressing: What is the acceptable risk of exceeding the reference dose or cancer slope factor? The deterministic approach assumes a high level of protection but it is never actually validated.</p>
+<p>In practice, these single point estimates are used in the following equations to arrive at water quality criterion, where</p>
+<ul>
+<li>SWQC = surface water quality criterion (mg/L)</li>
+<li>RfD = parameter-specific reference dose (mg/kg-day)</li>
+<li>RSC = Relative source contribution factor to account for non-water sources of exposure (not used for linear carcinogens) and may be either a percentage (multiplied) or amount subtracted.</li>
+<li>BW = body weight (kg)</li>
+<li>CSF = Cancer slope factor (mg/kg-day)</li>
+<li>Risk = Incremental life-time increased cancer risk (10-6 to 10-5)</li>
+<li><span class="math inline">\(\Sigma_{i=2}\)</span> = summation of values for aquatic trophic levels (TLs), where the letter i stands for the TLs to be considered, starting with TL2 and proceeding to TL4,</li>
+<li>FCR<sub>i</sub> = fish consumption rate for aquatic TLs 2, 3, and 4 (kg/day)</li>
+<li>BAF<sub>i</sub> = bioaccumulation factor for aquatic TLs 2, 3, and 4 (L/day)</li>
+<li>DI = Drinking water intake (default is 2 liters per day for adults)</li>
+<li>The units for 1,000 are ug/mg in order to derive a ug/L criterion</li>
+</ul>
+<hr />
+<p>Non-carcinogens (i.e. based on a threshold reference dose), consumption of water and organisms:</p>
+<p><span class="math display">\[ SWQC = \frac{RfD \times RSC \times BW \times 1,000}{DI + \Sigma_{i=2}^4[FCR_i \times BAF_i]}\]</span></p>
+<hr />
+<p>Non-carcinogens, consumption of organisms only:</p>
+<p><span class="math display">\[ SWQC = \frac{RfD \times RSC \times BW \times 1,000}{\Sigma_{i=2}^4[FCR_i \times BAF_i]}\]</span></p>
+<hr />
+<p>Carcinogenic compound, consumption of water and organisms:</p>
+<p><span class="math display">\[ SWQC = \frac{Risk\div CSF \times BW \times 1,000}{DI + \Sigma_{i=2}^4[FCR_i \times BAF_i]}\]</span></p>
+<hr />
+<p>Carcinogenic compound, consumption of organisms only:</p>
+<p><span class="math display">\[ SWQC = \frac{Risk\div CSF \times BW \times 1,000}{\Sigma_{i=2}^4[FCR_i \times BAF_i]}\]</span></p>
+<hr />
+<p>These equations can be used with generic national values, or with statewide or site-specific values that are more representative of the target population. Plugging in these various estimates will lead to a deterministically based surface water criterion for a particular substance.</p>
+<p>These equations can also be rearranged in order to calculate the risk of exceeding the RfD or to calculate an incremental increase in cancer risk or hazard (i.e. the hazard quotient, HQ) of exceeding the reference dose or CSF.</p>
+<hr />
+<p>Equation for non-carcinogens to calculate a hazard quotient:</p>
+<p><span class="math display">\[ HQ = \frac{I_w + I_f}{BW \times (RSC \times RfD)}\]</span></p>
+<p>where:</p>
+<ul>
+<li>I<sub>w</sub> = exposure through drinking water consumption (mg/day).<br />
+</li>
+<li>I<sub>f</sub> = exposure through fish consumption (mg/day)</li>
+<li>RfD = parameter specific reference dose (mg/kg-day)</li>
+<li>RSC = Relative source contribution factor expressed as percentage of RfD apportioned to surface water exposures</li>
+<li>BW = body weight (kg)</li>
+</ul>
+<p>A HQ less than 1.0 indicates that the RSC adjusted reference does is not exceeded, while conversly a value greater than 1.0 indicates that the dose is exceeded.</p>
+<hr />
+<p>Equation for carcinogens to calculate risk:</p>
+<p><span class="math display">\[ Risk = \frac{(I_w + I_f) \times CSF}{BW}\]</span></p>
+<p>where:</p>
+<ul>
+<li>I<sub>w</sub> = exposure through drinking water consumption (mg/day)<br />
+</li>
+<li>I<sub>f</sub> = exposure through fish consumption (mg/day)</li>
+<li>CSF = cancer slope factor (mg/kg-day)<span class="math inline">\(^{-1}\)</span></li>
+<li>BW = body weight (kg)</li>
+</ul>
+<p>This equation provides the lifetime incremental risk of a cancer event(e.g. <span class="math inline">\(10^{-6}\)</span>, <span class="math inline">\(10^{-5}\)</span>) due to exposure of the contaminant.</p>
+<hr />
+</div>
+<div id="what-is-a-probablistic-approach" class="section level3">
+<h3>What is a probablistic approach?</h3>
+<p>FDEP summarizes this approach as:</p>
+<blockquote>
+<p>The probabilistic approach provides an estimation of the risk to the entire population and can be used to develop criteria at a pre-specified risk level as opposed to an assumed high level of protection produced by the deterministic approach.</p>
+</blockquote>
+<p>In short, PRA uses the same exposure equations as the previously outlined deterministic approach, but it allows for a better understanding of the likelihood of different risk levels within a population (variability). Additionally, it allows for the quantification of uncertainty in risk estimates.</p>
+<p>Instead of using a single point estimate as the input, a probability distribution is used. For example, the entire normal distribution of body weight can be used instead of a single point average. From this distribution, a computer algorithm selects a value at random from the probability density function, and calculates the corresponding risk. This procedure is repeated many times (e.g. 10,000). This provides a much more robust method and is less prone to assumptions than using an imperfect single point estimate.</p>
+<p><img src="/post/2017-03-15-human-health-criteria-part-two_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<hr />
+<p>Still to come: - Examination of how single point estimates are set (e.g. how is fish consumption rate determined?) - Examination of a single point estimate’s influence on water quality criteria without implementing a probabilistic framework (e.g. how did a more specific fish consumption rate change the criteria?). - Examination of the difference in the criteria due solely to the method used (PRA vs DRA)?</p>
+</div>
 
               
             </div>
@@ -212,7 +325,7 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="/2017/03/human-health-criteria-part-one/" data-tooltip="Human Health Criteria Part One">
+            <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/human-health-criteria-part-3/" data-tooltip="Human Health Criteria Part 3">
           
             <i class="fa fa-angle-left"></i>
             <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -220,7 +333,7 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="/2017/03/i-finally-built-a-blog/" data-tooltip="I Finally Built a Blog">
+            <a class="post-action-btn btn btn--default tooltip--top" href="/2017/03/human-health-criteria-part-two/" data-tooltip="Human Health Criteria Part Two">
           
             <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
             <i class="fa fa-angle-right"></i>
@@ -237,17 +350,17 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
           <i class="fa fa-google-plus"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
           <i class="fa fa-facebook-official"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
@@ -293,7 +406,7 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="/2017/03/human-health-criteria-part-one/" data-tooltip="Human Health Criteria Part One">
+            <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/human-health-criteria-part-3/" data-tooltip="Human Health Criteria Part 3">
           
             <i class="fa fa-angle-left"></i>
             <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -301,7 +414,7 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="/2017/03/i-finally-built-a-blog/" data-tooltip="I Finally Built a Blog">
+            <a class="post-action-btn btn btn--default tooltip--top" href="/2017/03/human-health-criteria-part-two/" data-tooltip="Human Health Criteria Part Two">
           
             <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
             <i class="fa fa-angle-right"></i>
@@ -318,17 +431,17 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
           <i class="fa fa-google-plus"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
           <i class="fa fa-facebook-official"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
@@ -355,17 +468,17 @@ Fast forward to a few years later: I am comfortable with R (though by no means a
       <div id="share-options-bar" class="share-options-bar" data-behavior="4">
   <ul class="share-options">
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
         <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
       </a>
     </li>
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
         <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
       </a>
     </li>
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2f2017%2f03%2fa-shiny-site-for-the-upper-oconee-watershed-network%2f">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2f2017%2f04%2fhuman-health-criteria-part-two%2f">
         <i class="fa fa-twitter"></i><span>Share on Twitter</span>
       </a>
     </li>
@@ -596,9 +709,9 @@ $(document).ready(function() {
     
       <script>
         var disqus_config = function () {
-          this.page.url = '\/2017\/03\/a-shiny-site-for-the-upper-oconee-watershed-network\/';
+          this.page.url = '\/2017\/04\/human-health-criteria-part-two\/';
           
-            this.page.identifier = '\/2017\/03\/a-shiny-site-for-the-upper-oconee-watershed-network\/'
+            this.page.identifier = '\/2017\/04\/human-health-criteria-part-two\/'
           
         };
         (function() {

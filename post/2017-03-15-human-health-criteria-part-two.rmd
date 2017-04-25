@@ -1,0 +1,154 @@
+---
+title: Human Health Criteria Part Two
+date: '2017-04-23'
+draft: no
+thumbnailImagePosition: left
+thumbnailImage: "http://i.imgur.com/funBf2J.png"
+---
+
+Well, this blog entry has certainly been delayed more than I anticipated. This post will hopefully give you an introductory background into the motivations behind determining a regulatory number, the methods available to set that number, what the major assumptions are, and what the differences are between the methods.
+
+### 1. What are the goals of human health criteria regulations?
+
+Human Health Criteria (HHC) water quality standards are set to ensure that a designated population can safely consume seafood, and swim and drink potable water. The standards take into account a lifetime of exposure and set acceptable levels of risk for undesirable health outcomes such as cancer (usually at a $10^{-5}$ or $10^{-6}$ increase over background for the general population, and $10^{-4}$ for atypical consumers, such as subsistence fishers).
+
+EPA summarizes the goal of human health ambient water quality criteria [as follows](https://www.epa.gov/sites/production/files/2015-12/documents/hh-fish-consumption-faqs.pdf):
+
+>  To be consistent with section 101(a)(2),the applicable criteria for such “fishable” designated uses must not only protect the aquatic organisms themselves, but also protect human health through consumption of fish and shellfish.
+
+> EPA has consistently implemented the Clean Water Act to ensure that the total rate of consumption of freshwater and estuarine fish and shellfish (including estuarine species harvested in near coastal waters) reflects consumption rates demonstrated by the population of concern. In other words, EPA expects that the standards will be set to enable residents to safely consume from local waters the amount of fish they would normally consume from all fresh and estuarine waters (including estuarine species harvested in near coastal waters). EPA does not necessarily expect all consumers to eat only fish from a single State, but individuals or groups should be able to do so without concern for their health. 
+
+>  Through the use of conservative assumptions with respect to both toxicity and exposure parameters, the resulting AWQC should provide adequate protection not only for the general population over a lifetime of exposure, but also for special subpopulations who, because of high water or fish intake rates, or because of biological sensitivities, have an increased risk of receiving a dose that would elicit adverse effects. The 
+Agency recognizes that there may be some cases where the AWQC based on chronic toxicity may not provide adequate protection for a subpopulation at special risk from shorter-term exposures. The Agency encourages States, Tribes, and others employing the 2000 Human Health Methodology to give consideration to such circumstances in deriving criteria to ensure that adequate protection is afforded to all identifiable subpopulations. 
+
+
+### What are the methods used to set standards for human health criteria?
+
+The acceptable water quality standard is dependent on several estimates and assumptions. These include the fish consumption rate (FCR), the relative source contribution (RSC), the incremental risk exposure for carcinogens, the bioaccumulation factor, the cancer slope factor, the drinking water intake, and body weight.
+
+The FCR is the amount of seafood consumed by a person per day. For HHC, this rate is set to reflect the consumption of species in both fresh and estuarine waters. The FCR is inclusive of seafood from local, commercial, aquaculture, interstate, and international sources. The FCR can be adjusted if sufficient data are available to determine a RSC. If sufficient data are not available, EPA has set a default of 20% RSC that will ensure the designated use is protected. In short, this assumption is that only 20% of a person's total exposure to a particular chemical is due to their consumption of seafood and drinking water.
+
+The criteria for a particular chemical in ambient water is determined with respect to the incremental lifetime risk due to the presence of that substance in water. EPA recommends an incremental cancer risk not exceed more than 1 in 1,000,000 ($10^{-6}$) or 1 in 100,000 ($10^{-5}$) for the general population. For sensitive subpopulations (such as subsistence fishers), the acceptable incremental lifetime risk is not to exceed 1 in 10,000 ($10^{-4}$). 
+
+Incremental Risk | Decimal increase | Percent increase
+-----------------|------------------|---------
+1 in 10,000      | 0.0001           | 0.01%
+1 in 100,000     | 0.00001          | 0.001%
+1 in 1,000,000   | 0.000001         | 0.0001%
+
+For some perspective, the CDC states that secondhand smoke increases the risk of lung cancer in non smokers who are exposed regularly at work and home by [20-30%](https://www.cdc.gov/tobacco/data_statistics/sgr/50th-anniversary/index.htm). I think it's important to remember the scale of risk these criteria are addressing, particularly when one considers the often sensationalist headlines in the press.
+
+### How were criteria traditionally set (aka the deterministic approach)?
+
+The deterministic approach to criteria development relies on point estimates of key variables, such as fish consumption rates, drinking water intake, and body weight). These single point estimates are set often at an upper percentile (e.g. 90th), with the assumption that this will protect individuals with a high fish consumption rate, for example. 
+
+A criticism of this approach is that it is rudimentary and inaccurate  due to the compounded levels of conservatism, and that the resulting criteria are meaningless. Often the point estimates become a matter of "best professional judgement", which is undesirable and will introduce additional bias. Perhaps more importantly, all measure of variability is lost. The focus when setting criteria using a deterministic approach also becomes centered on the agreeable amount of fish consumption instead of the more relevant concern that criteria development should be addressing: What is the acceptable risk of exceeding the reference dose or cancer slope factor? The deterministic approach assumes a high level of protection but it is never actually validated.
+
+In practice, these single point estimates are used in the following equations to arrive at water quality criterion, where
+
+ - SWQC = surface water quality criterion (mg/L) 
+ - RfD = parameter-specific reference dose (mg/kg-day) 
+ - RSC = Relative source contribution factor to account for non-water sources of exposure (not used for linear carcinogens) and may be either a percentage (multiplied) or amount subtracted. 
+ - BW = body weight (kg) 
+ - CSF = Cancer slope factor (mg/kg-day)
+ - Risk = Incremental life-time increased cancer risk (10-6 to 10-5) 
+  - $\Sigma_{i=2}$ = summation of values for aquatic trophic levels (TLs), where the letter i stands for the TLs to be considered, starting with TL2 and proceeding to TL4,
+ - FCR~i~ = fish consumption rate for aquatic TLs 2, 3, and 4 (kg/day)
+ - BAF~i~ = bioaccumulation factor for aquatic TLs 2, 3, and 4 (L/day)
+ - DI = Drinking water intake (default is 2 liters per day for adults)
+ - The units for 1,000 are ug/mg in order to derive a ug/L criterion
+
+***
+Non-carcinogens (i.e. based on a threshold reference dose), consumption of water and organisms:
+
+\[ SWQC = \frac{RfD \times RSC \times BW \times 1,000}{DI + \Sigma_{i=2}^4[FCR_i \times BAF_i]}\]
+
+***
+
+Non-carcinogens, consumption of organisms only:
+
+\[ SWQC = \frac{RfD \times RSC \times BW \times 1,000}{\Sigma_{i=2}^4[FCR_i \times BAF_i]}\]
+
+***
+
+Carcinogenic compound, consumption of water and organisms:
+
+\[ SWQC = \frac{Risk\div CSF \times BW \times 1,000}{DI + \Sigma_{i=2}^4[FCR_i \times BAF_i]}\]
+
+***
+
+Carcinogenic compound, consumption of organisms only:
+
+\[ SWQC = \frac{Risk\div CSF \times BW \times 1,000}{\Sigma_{i=2}^4[FCR_i \times BAF_i]}\]
+
+***
+
+These equations can be used with generic national values, or with statewide or site-specific values that are more representative of the target population. Plugging in these various estimates will lead to a deterministically based surface water criterion for a particular substance.
+
+These equations can also be rearranged in order to calculate the risk of exceeding the RfD or to calculate an incremental increase in cancer risk or hazard (i.e. the hazard quotient, HQ) of exceeding the reference dose or CSF.
+
+
+***
+
+Equation for non-carcinogens to calculate a hazard quotient:
+
+\[ HQ = \frac{I_w + I_f}{BW \times (RSC \times RfD)}\]
+
+where: 
+
+ - I~w~ = exposure through drinking water consumption (mg/day).   
+ - I~f~ = exposure through fish consumption (mg/day)
+ - RfD = parameter specific reference dose (mg/kg-day)
+ - RSC = Relative source contribution factor expressed as percentage of RfD apportioned to surface water exposures
+ - BW = body weight (kg)
+ 
+A HQ less than 1.0 indicates that the RSC adjusted reference does is not exceeded, while conversly a value greater than 1.0 indicates that the dose is exceeded.
+
+***
+
+Equation for carcinogens to calculate risk:
+
+\[ Risk = \frac{(I_w + I_f) \times CSF}{BW}\]
+
+where:
+
+ - I~w~ = exposure through drinking water consumption (mg/day)  
+ - I~f~ = exposure through fish consumption (mg/day)
+ - CSF =  cancer slope factor (mg/kg-day)$^{-1}$
+ - BW = body weight (kg)
+ 
+This equation provides the lifetime incremental risk of a cancer event(e.g. $10^{-6}$, $10^{-5}$) due to exposure of the contaminant.
+
+***
+
+### What is a probablistic approach?
+
+FDEP summarizes this approach as:
+
+> The probabilistic approach provides an estimation of the risk to the entire population and can be used to develop criteria at a pre-specified risk level as opposed to an assumed high level of protection produced by the deterministic approach.
+
+In short, PRA uses the same exposure equations as the previously outlined deterministic approach, but it allows for a better understanding of the likelihood of different risk levels within a population (variability). Additionally, it allows for the quantification of uncertainty in risk estimates.
+
+Instead of using a single point estimate as the input, a probability distribution is used. For example, the entire normal distribution of body weight can be used instead of a single point average. From this distribution, a computer algorithm selects a value at random from the probability density function, and calculates the corresponding risk. This procedure is repeated many times (e.g. 10,000). This provides a much more robust method and is less prone to assumptions than using an imperfect single point estimate.
+
+
+```{r, echo=FALSE}
+set.seed(1987)
+
+xseq<-seq(50,280, 0.01)
+densities <- dnorm(xseq, mean = 155, sd = 30)
+
+plot(xseq, densities, col = "darkgreen", xlab = "body weight", ylab = "probability density",
+     main = "Example normal distribution of body weights")
+
+```
+
+
+***
+
+Still to come:
+ - Examination of how single point estimates are set (e.g. how is fish consumption rate determined?)
+ - Examination of a single point estimate's influence on water quality criteria without implementing a probabilistic  framework (e.g. how did a more specific fish consumption rate change the criteria?). 
+ - Examination of the difference in the criteria due solely to the method used (PRA vs DRA)?
+
+
