@@ -1,0 +1,43 @@
+---
+title: Human Health Criteria Part 3
+date: '2017-04-25'
+draft: yes
+---
+
+********************************************
+
+For next blog:
+
+some resources while writing: 
+https://depnewsroom.files.wordpress.com/2016/06/human-health-criteria-faq-0725161.pdf
+http://www.dep.state.fl.us/water/wqssp/health.htm
+https://www.epa.gov/sites/production/files/2015-12/documents/hh-fish-consumption-faqs.pdf
+
+
+
+
+
+## 5. 
+
+1. how were the original numbers determined? This question will address the assumptions made and the model used.
+
+2. what would the determanstic number be with the new data used for it?
+
+3. what is the difference in risk between the two numbers?
+
+
+## Import Data
+
+```{r}
+
+```
+
+## Clean Data
+```{r}
+
+```
+
+## Compare determanistic vs probablistic methods for one parameter
+```{r}
+
+```
