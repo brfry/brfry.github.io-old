@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Blog on Water, Science, Policy, and occasionally Cycling</title>
-    <link>https://brfry.github.io/index.xml</link>
-    <description>Recent content on A Blog on Water, Science, Policy, and occasionally Cycling</description>
+    <title>Beck Frydenborg on Beck Frydenborg</title>
+    <link>https://brfry.github.io/</link>
+    <description>Recent content in Beck Frydenborg on Beck Frydenborg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://brfry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2016 Beck Frydenborg</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Human Health Criteria Part Two</title>
-      <link>https://brfry.github.io/2017/04/human-health-criteria-part-two/</link>
+      <link>https://brfry.github.io/post/2017-03-15-human-health-criteria-part-two/</link>
       <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://brfry.github.io/2017/04/human-health-criteria-part-two/</guid>
+      <guid>https://brfry.github.io/post/2017-03-15-human-health-criteria-part-two/</guid>
       <description>&lt;p&gt;Well, this blog entry has certainly been delayed more than I anticipated. This post will hopefully give you an introductory background into the motivations behind determining a regulatory number, the methods available to set that number, what the major assumptions are, and what the differences are between the methods.&lt;/p&gt;
 &lt;div id=&#34;what-are-the-goals-of-human-health-criteria-regulations&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;1. What are the goals of human health criteria regulations?&lt;/h3&gt;
@@ -145,23 +146,23 @@
     
     <item>
       <title>Human Health Criteria Part One</title>
-      <link>https://brfry.github.io/2017/03/human-health-criteria-part-one/</link>
+      <link>https://brfry.github.io/post/2017-03-22-human-health-criteria-part-one/</link>
       <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://brfry.github.io/2017/03/human-health-criteria-part-one/</guid>
+      <guid>https://brfry.github.io/post/2017-03-22-human-health-criteria-part-one/</guid>
       <description>&lt;p&gt;Recently in Florida, there has been some controversy over an update to Human Health Criteria (HHC) that the Florida Department of Environmental Protection (FDEP) promulgated concerning acceptable levels for 88 carcinogens in ambient water and seafood. Most notably, many environmental activists are concerned that historic numbers for several substances are proposed to increase. Many blame FDEP&amp;rsquo;s use of a probabilistic model instead of the previously used deterministic model, and this theme was repeated in the press:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.tallahassee.com/story/news/2016/05/14/public-blasts-dep-over-new-water-toxin-standards/84382154/&#34;&gt;&amp;ldquo;The state of Florida wants to weaken its restrictions on roughly two dozen cancer-causing chemicals that can be discharged into its rivers, lakes, streams and coastal waters&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tallahassee.com/story/news/2016/05/14/public-blasts-dep-over-new-water-toxin-standards/84382154/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;The state of Florida wants to weaken its restrictions on roughly two dozen cancer-causing chemicals that can be discharged into its rivers, lakes, streams and coastal waters&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.tallahassee.com/story/news/2016/05/20/dep-defends-water-pollution-standards/84675594/&#34;&gt;&amp;ldquo;DEP’s method of calculating limits — a process not used by any other state or the Environmental Protection Agency — would allow for more pollution&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tallahassee.com/story/news/2016/05/20/dep-defends-water-pollution-standards/84675594/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;DEP’s method of calculating limits — a process not used by any other state or the Environmental Protection Agency — would allow for more pollution&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;In response to these claims by environmentalists FDEP asserts that &lt;a href=&#34;http://www.mypalmbeachpost.com/news/cerabino-dirty-water-shouldn-our-future-environmentalists-say/2om26RwRrwkTkffSR5kPyM/&#34;&gt;“the criteria consider a range of environmental variables and account for the most at-risk populations, including young children, pregnant women and those whose diets comprise primarily of Florida seafood”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In response to these claims by environmentalists FDEP asserts that &lt;a href=&#34;http://www.mypalmbeachpost.com/news/cerabino-dirty-water-shouldn-our-future-environmentalists-say/2om26RwRrwkTkffSR5kPyM/&#34; target=&#34;_blank&#34;&gt;“the criteria consider a range of environmental variables and account for the most at-risk populations, including young children, pregnant women and those whose diets comprise primarily of Florida seafood”&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;There is a lot to unpack here in addition to just the science and statistics behind the criteria. For instance, to someone unfamiliar with the state-federal relationship and rule making process, it sounds worrying that FDEP is promulgating higher acceptable levels for some carcinogens than what the EPA has put forward. Yet these news stories tend to leave out a key point: the EPA &lt;a href=&#34;https://www.epa.gov/sites/production/files/2015-10/documents/human-health-2015-update-factsheet.pdf&#34;&gt;&amp;ldquo;criteria are not rules, nor do they automatically become part of a state’s water quality standards. States may adopt the criteria that EPA publishes, modify EPA’s criteria to reflect site-specific conditions, or adopt different criteria based on other scientifically-defensible methods.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There is a lot to unpack here in addition to just the science and statistics behind the criteria. For instance, to someone unfamiliar with the state-federal relationship and rule making process, it sounds worrying that FDEP is promulgating higher acceptable levels for some carcinogens than what the EPA has put forward. Yet these news stories tend to leave out a key point: the EPA &lt;a href=&#34;https://www.epa.gov/sites/production/files/2015-10/documents/human-health-2015-update-factsheet.pdf&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;criteria are not rules, nor do they automatically become part of a state’s water quality standards. States may adopt the criteria that EPA publishes, modify EPA’s criteria to reflect site-specific conditions, or adopt different criteria based on other scientifically-defensible methods.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;In addition to scary news articles, one concerned group, Earth Justice, did present an &lt;a href=&#34;http://earthjustice.org/sites/default/files/files/Burkholder%20Assessment.pdf&#34;&gt;analysis by JoAnn Burkholder of NCSU that is critical of the methodology&lt;/a&gt;. She asserts that &amp;ldquo;the [Monte Carlo] model has several major impediments which prompted the U.S. Environmental Protection Agency (EPA) to advise against its use for deriving HHC&amp;rdquo; and that &amp;ldquo;the model emphasizes average adult Floridians&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;In addition to scary news articles, one concerned group, Earth Justice, did present an &lt;a href=&#34;http://earthjustice.org/sites/default/files/files/Burkholder%20Assessment.pdf&#34; target=&#34;_blank&#34;&gt;analysis by JoAnn Burkholder of NCSU that is critical of the methodology&lt;/a&gt;. She asserts that &amp;ldquo;the [Monte Carlo] model has several major impediments which prompted the U.S. Environmental Protection Agency (EPA) to advise against its use for deriving HHC&amp;rdquo; and that &amp;ldquo;the model emphasizes average adult Floridians&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;While I do not want this blog post to be a review of her paper, I will note that a cursory look at the &lt;a href=&#34;https://www.epa.gov/risk/use-monte-carlo-simulation-risk-assessments&#34;&gt;literature she sites&lt;/a&gt; does not appear to support her claims. For instance, one citation is for a 1994 EPA Region 3 (Florida is in Region 4) guidance document which never discourages the use of Monte Carlo simulation. In fact it mainly discusses how single point and deterministic methods do not account for uncertainty properly and are overly protective. EPA has a more recent (2014), peer reviewed &lt;a href=&#34;https://www.epa.gov/sites/&#34;&gt;document outlining risk assessment in more detail&lt;/a&gt;, which notes &amp;ldquo;PRA (probabilistic risk assessment) may be more suitable than DRA (deterministic risk assessment) for complex assessments, including those of aggregate and cumulative exposures and time‐dependent individual exposure, dose and effects analyses&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;While I do not want this blog post to be a review of her paper, I will note that a cursory look at the &lt;a href=&#34;https://www.epa.gov/risk/use-monte-carlo-simulation-risk-assessments&#34; target=&#34;_blank&#34;&gt;literature she sites&lt;/a&gt; does not appear to support her claims. For instance, one citation is for a 1994 EPA Region 3 (Florida is in Region 4) guidance document which never discourages the use of Monte Carlo simulation. In fact it mainly discusses how single point and deterministic methods do not account for uncertainty properly and are overly protective. EPA has a more recent (2014), peer reviewed &lt;a href=&#34;https://www.epa.gov/sites/&#34; target=&#34;_blank&#34;&gt;document outlining risk assessment in more detail&lt;/a&gt;, which notes &amp;ldquo;PRA (probabilistic risk assessment) may be more suitable than DRA (deterministic risk assessment) for complex assessments, including those of aggregate and cumulative exposures and time‐dependent individual exposure, dose and effects analyses&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;As you can tell, I think the environmentalists and Burkholder are wrong about the science (and policy) behind these new rules.&lt;/p&gt;
 
@@ -182,27 +183,11 @@
     </item>
     
     <item>
-      <title>A Shiny Site for the Upper Oconee Watershed Network</title>
-      <link>https://brfry.github.io/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</link>
-      <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://brfry.github.io/2017/03/a-shiny-site-for-the-upper-oconee-watershed-network/</guid>
-      <description>&lt;p&gt;Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &amp;ldquo;citizen scientists&amp;rdquo; and other curious stakeholders (including some of my clients).&lt;/p&gt;
-
-&lt;p&gt;Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA. She reminds me that a local volunteer group (&lt;a href=&#34;http://www.uown.org/UOWN-Wordpress/&#34;&gt;UOWN&lt;/a&gt;) regularly collects various water quality data (in fact, I used to process &lt;em&gt;E. coli&lt;/em&gt; samples for them). However,these data are currently only available to volunteers and other members of the public as an excel file.&lt;/p&gt;
-
-&lt;p&gt;I thought it would be interesting for the volunteers who collect these data to be able to &amp;ldquo;play around&amp;rdquo; and explore their data. Maybe they are mostly interested in the water quality parameters of the stream that runs behind their house. Maybe they want to know what the trend in conductivity is for the watershed of that stream. A Shiny interface will let them ask and (hopefully) answer these questions. As a bonus, I get to learn a new skill.&lt;/p&gt;
-
-&lt;p&gt;So with that in mind, I present &lt;a href=&#34;https://uown.shinyapps.io/test_shiny1/&#34;&gt;my current Alpha shiny site&lt;/a&gt;. I built the site in only a few hours after I figured out the basics of Shiny and reactivity thanks in large part to the guides at &lt;a href=&#34;https://shiny.rstudio.com/tutorial/&#34;&gt;Rstudio&lt;/a&gt; and, of course, stackoverflow.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>I Finally Built a Blog</title>
-      <link>https://brfry.github.io/2017/03/i-finally-built-a-blog/</link>
+      <link>https://brfry.github.io/post/2017-03-08-hello-world-rmd/</link>
       <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://brfry.github.io/2017/03/i-finally-built-a-blog/</guid>
+      <guid>https://brfry.github.io/post/2017-03-08-hello-world-rmd/</guid>
       <description>&lt;p&gt;I finally did it. I actually made a blog. The focus of this blog will be things I am familiar with and passionate about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The intersection of science and policy as it relates to water.&lt;/li&gt;
@@ -212,6 +197,40 @@
 &lt;p&gt;I’ll likely deviate from this theme on occassion, but will try to keep the focus there.&lt;/p&gt;
 &lt;p&gt;That being said, here is some test R code so I make sure things are working alright:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://brfry.github.io/post/2017-03-08-hello-world-rmd_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Meta-analysis of Agriculture Best Management Practices - 2017 Society for Freshwater Science</title>
+      <link>https://brfry.github.io/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/talk/example-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Millipede</title>
+      <link>https://brfry.github.io/photography/bug_pic/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/photography/bug_pic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upper Oconnee Water Network</title>
+      <link>https://brfry.github.io/project/shiny_uown_app/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/project/shiny_uown_app/</guid>
+      <description>&lt;p&gt;Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &amp;ldquo;citizen scientists&amp;rdquo; and other curious stakeholders (including some of my clients).&lt;/p&gt;
+
+&lt;p&gt;Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA. She reminds me that a local volunteer group (&lt;a href=&#34;http://www.uown.org/UOWN-Wordpress/&#34; target=&#34;_blank&#34;&gt;UOWN&lt;/a&gt;) regularly collects various water quality data (in fact, I used to process &lt;em&gt;E. coli&lt;/em&gt; samples for them). However,these data are currently only available to volunteers and other members of the public as an excel file.&lt;/p&gt;
+
+&lt;p&gt;I thought it would be interesting for the volunteers who collect these data to be able to &amp;ldquo;play around&amp;rdquo; and explore their data. Maybe they are mostly interested in the water quality parameters of the stream that runs behind their house. Maybe they want to know what the trend in conductivity is for the watershed of that stream. A Shiny interface will let them ask and (hopefully) answer these questions. As a bonus, I get to learn a new skill.&lt;/p&gt;
+
+&lt;p&gt;So with that in mind, I present &lt;a href=&#34;https://uown.shinyapps.io/test_shiny1/&#34; target=&#34;_blank&#34;&gt;my current Alpha shiny site&lt;/a&gt;. I built the site in only a few hours after I figured out the basics of Shiny and reactivity thanks in large part to the guides at &lt;a href=&#34;https://shiny.rstudio.com/tutorial/&#34; target=&#34;_blank&#34;&gt;Rstudio&lt;/a&gt; and, of course, stackoverflow.&lt;/p&gt;
 </description>
     </item>
     

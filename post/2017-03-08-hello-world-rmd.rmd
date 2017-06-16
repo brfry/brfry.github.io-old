@@ -2,8 +2,7 @@
 title: "I Finally Built a Blog"
 draft: no
 date: '2017-03-08'
-thumbnailImagePosition: left
-thumbnailImage: http://frecologic.com/uploads/3/4/6/6/34661491/1383960065.png
+image: bug_close.jpg
 ---
 
 ```{r setup, include=FALSE}
