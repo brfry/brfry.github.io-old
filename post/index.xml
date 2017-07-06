@@ -11,6 +11,15 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Visual Resume</title>
+      <link>https://brfry.github.io/post/visual-resume/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/post/visual-resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Human Health Criteria Part Two</title>
       <link>https://brfry.github.io/post/2017-03-15-human-health-criteria-part-two/</link>
       <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
