@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/post/2017-03-15-human-health-criteria-part-two/</loc>
+      <loc>/post/2017-03-15-human-health-criteria-part-two/</loc>
       <lastmod>2017-04-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/post/2017-03-22-human-health-criteria-part-one/</loc>
+      <loc>/post/2017-03-22-human-health-criteria-part-one/</loc>
       <lastmod>2017-03-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/post/2017-03-08-hello-world-rmd/</loc>
+      <loc>/post/2017-03-08-hello-world-rmd/</loc>
       <lastmod>2017-03-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/talk/sfs2017/</loc>
+      <loc>/talk/sfs2017/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/talk/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,16 @@
     
     <url>
     
-      <loc>https://brfry.github.io/photography/bug_pic/</loc>
+      <loc>/talk/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/photography/bug_pic/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +86,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/project/shiny_uown_app/</loc>
+      <loc>/project/shiny_uown_app/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +95,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/</loc>
+      <loc>/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -96,7 +105,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -105,7 +114,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/photography/</loc>
+      <loc>/photography/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -115,7 +124,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -125,7 +134,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/tags/shiny/</loc>
+      <loc>/tags/shiny/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -135,7 +144,7 @@
     
     <url>
     
-      <loc>https://brfry.github.io/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Beck Frydenborg</title>
-    <link>https://brfry.github.io/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on Beck Frydenborg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Upper Oconnee Water Network</title>
-      <link>https://brfry.github.io/project/shiny_uown_app/</link>
+      <link>/project/shiny_uown_app/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://brfry.github.io/project/shiny_uown_app/</guid>
+      <guid>/project/shiny_uown_app/</guid>
       <description>&lt;p&gt;Shiny was first introduced when I was very new to R. I loved the interactive data exploration it offered, and was convinced that proper implementation of Shiny could help further the engagement of &amp;ldquo;citizen scientists&amp;rdquo; and other curious stakeholders (including some of my clients).&lt;/p&gt;
 
 &lt;p&gt;Fast forward to a few years later: I am comfortable with R (though by no means an expert), and in a conversation with a graduate school friend at UGA. She reminds me that a local volunteer group (&lt;a href=&#34;http://www.uown.org/UOWN-Wordpress/&#34; target=&#34;_blank&#34;&gt;UOWN&lt;/a&gt;) regularly collects various water quality data (in fact, I used to process &lt;em&gt;E. coli&lt;/em&gt; samples for them). However,these data are currently only available to volunteers and other members of the public as an excel file.&lt;/p&gt;
