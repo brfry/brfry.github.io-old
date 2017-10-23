@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Beck Frydenborg</title>
-    <link>/talk/</link>
+    <link>https://brfry.github.io/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Beck Frydenborg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,11 +11,20 @@
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Meta-analysis of Agriculture Best Management Practices - 2017 Society for Freshwater Science</title>
-      <link>/talk/sfs2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Assessing Coastal Dune Lake Health</title>
+      <link>https://brfry.github.io/talk/mkei2017/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/sfs2017/</guid>
+      <guid>https://brfry.github.io/talk/mkei2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Meta-analysis of Agriculture Best Management Practices - 2017 Society for Freshwater Science</title>
+      <link>https://brfry.github.io/talk/sfs2017/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://brfry.github.io/talk/sfs2017/</guid>
       <description></description>
     </item>
     

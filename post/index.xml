@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Beck Frydenborg</title>
-    <link>/post/</link>
+    <link>https://brfry.github.io/post/</link>
     <description>Recent content in Posts on Beck Frydenborg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Human Health Criteria Part Two</title>
-      <link>/post/2017-03-15-human-health-criteria-part-two/</link>
+      <link>https://brfry.github.io/post/2017-03-15-human-health-criteria-part-two/</link>
       <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-03-15-human-health-criteria-part-two/</guid>
+      <guid>https://brfry.github.io/post/2017-03-15-human-health-criteria-part-two/</guid>
       <description>&lt;p&gt;Well, this blog entry has certainly been delayed more than I anticipated. This post will hopefully give you an introductory background into the motivations behind determining a regulatory number, the methods available to set that number, what the major assumptions are, and what the differences are between the methods.&lt;/p&gt;
 &lt;div id=&#34;what-are-the-goals-of-human-health-criteria-regulations&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;1. What are the goals of human health criteria regulations?&lt;/h3&gt;
@@ -132,7 +132,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;In short, PRA uses the same exposure equations as the previously outlined deterministic approach, but it allows for a better understanding of the likelihood of different risk levels within a population (variability). Additionally, it allows for the quantification of uncertainty in risk estimates.&lt;/p&gt;
 &lt;p&gt;Instead of using a single point estimate as the input, a probability distribution is used. For example, the entire normal distribution of body weight can be used instead of a single point average. From this distribution, a computer algorithm selects a value at random from the probability density function, and calculates the corresponding risk. This procedure is repeated many times (e.g. 10,000). This provides a much more robust method and is less prone to assumptions than using an imperfect single point estimate.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-03-15-human-health-criteria-part-two_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://brfry.github.io/post/2017-03-15-human-health-criteria-part-two_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Still to come:&lt;/p&gt;
 &lt;ul&gt;
@@ -146,10 +146,10 @@
     
     <item>
       <title>Human Health Criteria Part One</title>
-      <link>/post/2017-03-22-human-health-criteria-part-one/</link>
+      <link>https://brfry.github.io/post/2017-03-22-human-health-criteria-part-one/</link>
       <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-03-22-human-health-criteria-part-one/</guid>
+      <guid>https://brfry.github.io/post/2017-03-22-human-health-criteria-part-one/</guid>
       <description>&lt;p&gt;Recently in Florida, there has been some controversy over an update to Human Health Criteria (HHC) that the Florida Department of Environmental Protection (FDEP) promulgated concerning acceptable levels for 88 carcinogens in ambient water and seafood. Most notably, many environmental activists are concerned that historic numbers for several substances are proposed to increase. Many blame FDEP&amp;rsquo;s use of a probabilistic model instead of the previously used deterministic model, and this theme was repeated in the press:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.tallahassee.com/story/news/2016/05/14/public-blasts-dep-over-new-water-toxin-standards/84382154/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;The state of Florida wants to weaken its restrictions on roughly two dozen cancer-causing chemicals that can be discharged into its rivers, lakes, streams and coastal waters&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
@@ -184,10 +184,10 @@
     
     <item>
       <title>I Finally Built a Blog</title>
-      <link>/post/2017-03-08-hello-world-rmd/</link>
+      <link>https://brfry.github.io/post/2017-03-08-hello-world-rmd/</link>
       <pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-03-08-hello-world-rmd/</guid>
+      <guid>https://brfry.github.io/post/2017-03-08-hello-world-rmd/</guid>
       <description>&lt;p&gt;I finally did it. I actually made a blog. The focus of this blog will be things I am familiar with and passionate about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The intersection of science and policy as it relates to water.&lt;/li&gt;
@@ -196,7 +196,7 @@
 &lt;/ul&gt;
 &lt;p&gt;I’ll likely deviate from this theme on occassion, but will try to keep the focus there.&lt;/p&gt;
 &lt;p&gt;That being said, here is some test R code so I make sure things are working alright:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-03-08-hello-world-rmd_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://brfry.github.io/post/2017-03-08-hello-world-rmd_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
